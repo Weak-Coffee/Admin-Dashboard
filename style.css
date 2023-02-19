@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: lato, sans-serif;
+    color: white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto;
+    height: 100vh;
+    width: 100vw;
+}
+.dashboard {
+    display: grid;
+    grid-template-columns: min-content;
+    grid-template-rows: min-content min-content min-content;
+    width: 250px;
+    gap: 70px;
+    background-color: blueviolet;
+    padding: 50px;
+}
+
+.dash-links,
+.dash-settings,
+.dash-settings > a,
+.dash-links > a {
+    display: grid;
+    grid-template-rows: min-content;
+    gap: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 800;
+}
