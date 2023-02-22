@@ -5,29 +5,186 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/style.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
     <title>Admin Dashboard</title>
 </head>
 <body>
     <div class="container">
-        <div class="dashboard">
-            <div class="dash-title">
-                <h1>
-                    Dashboard
-                </h1>
+        <div class="side-bar">
+            <h1 class="side-bar-title">Dashboard</h1>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="material-icons"> home </span> Home 
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="material-icons"> account_circle </span> Profile 
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="material-icons"> message </span> Messages 
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="material-icons"> history </span> History
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="material-icons"> task </span> Tasks
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="material-icons"> group </span> Community
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="material-icons"> settings </span> Settings
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="material-icons"> help </span> Support
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">
+                        <span class="material-icons"> shield </span> Privacy
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="header">
+            <div class="top">
+                <div class="search-box">
+                    <label for="search">
+                        <span class="material-icons"> search </span>
+                    </label>
+                    <input class="search-bar" type="text">
+                </div>
+                <div class="profile">
+                    <span class="material-icons"> notifications_active </span>
+                    <img class="profile-picture" src="/img/PngItem_223968.png">
+                    <h2>John McClain</h2>
+                </div>
             </div>
-            <div class="dash-links">
-                <a href="#"><i class="fa-solid fa-house"></i>Home</a>
-                <a href="#">Profile</a>
-                <a href="#">Messages</a>
-                <a href="#">History</a>
-                <a href="#">Tasks</a>
-                <a href="#">Communities</a>
+            <div class="bottom">
+                <div class="profile">
+                    <img class="profile-picture-lg" src="/img/PngItem_223968.png">
+                    <div class="name">
+                        <p>Hi there,</p>
+                        <h1>John McClain (@diehard)</h1>
+                    </div>
+                </div>
+                <div class="bottom-buttons">
+                    <button type="button">New</button>
+                    <button type="button">Upload</button>
+                    <button type="button">Share</button>
+                </div>
             </div>
-            <div class="dash-settings">
-                <a href="#">Settings</a>
-                <a href="#">Support</a>
-                <a href="#">Privacy</a>
+        </div>
+        <div class="main-content">
+            <div class="projects">
+                <h2 class="area-title">Your Projects</h2>
+                <div class="project-items">
+                    <div class="item">
+                        <div>
+                            <h2>Super Cool Project</h2>
+                            <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitundin nibh erat, id facilisis felis accumsan nec.</p>
+                        </div>
+                        <div class="card-icons">
+                            <span class="material-icons"> star_border </span>
+                            <span class="material-icons"> visibility  </span>
+                            <span class="material-icons"> share </span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <h2>Less Cool Project</h2>
+                            <p>Accusam consetetur sit voluptua sea takimata est diam magna dolore, ea et elitr rebum dolor sed kasd kasd labore stet, ipsum voluptua lorem sanctus ea sed dolor et est. Amet.</p>
+                        </div>
+                        <div class="card-icons">
+                            <span class="material-icons"> star_border </span>
+                            <span class="material-icons"> visibility  </span>
+                            <span class="material-icons"> share </span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <h2>Impossible App</h2>
+                            <p>Tempor diam ut eos tempor elitr erat elitr, elitr lorem sed dolore labore. Voluptua elitr eos clita no lorem, sadipscing stet kasd sit et amet sadipscing sit ipsum, rebum sit et et tempor ut, accusam labore eos takimata sit eirmod.</p>
+                        </div>
+                        <div class="card-icons">
+                            <span class="material-icons"> star_border </span>
+                            <span class="material-icons"> visibility  </span>
+                            <span class="material-icons"> share </span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <h2>Easy Peasy App</h2>
+                            <p>Lorem lorem ea justo erat sadipscing sit labore sanctus. Et rebum rebum invidunt gubergren dolor amet stet voluptua ipsum. Ipsum amet duo accusam dolores nonumy sit ipsum no, diam invidunt sed et lorem voluptua voluptua.</p>
+                        </div>
+                        <div class="card-icons">
+                            <span class="material-icons"> star_border </span>
+                            <span class="material-icons"> visibility  </span>
+                            <span class="material-icons"> share </span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <h2>Ad Blocker</h2>
+                            <p>Ipsum kasd ut lorem kasd lorem amet dolor. Amet sit ut gubergren dolor et eirmod, dolore et diam sea diam ipsum, takimata kasd sadipscing dolore dolor sed accusam accusam consetetur aliquyam. Clita invidunt amet ut eos amet labore. Voluptua sit voluptua sea no gubergren sea labore vero, invidunt ipsum dolores lorem gubergren erat. Takimata justo.</p>
+                        </div>
+                        <div class="card-icons">
+                            <span class="material-icons"> star_border </span>
+                            <span class="material-icons"> visibility  </span>
+                            <span class="material-icons"> share </span>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <h2>Money Maker</h2>
+                            <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitundin nibh erat, id facilisis felis accumsan nec.</p>
+                        </div>
+                        <div class="card-icons">
+                            <span class="material-icons"> star_border </span>
+                            <span class="material-icons"> visibility  </span>
+                            <span class="material-icons"> share </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="announcements">
+                <h2 class="area-title">Announcements</h2>
+                <div class="announcements-item">
+                    <div>
+                        <h4>Site Maintenance</h4>
+                        <span>Elitr voluptua clita diam labore sed dolor diam diam sit dolor, vero amet sed sit elitr dolore dolor gubergren magna.</span>
+                    </div>
+                    <div>
+                        <h4>Community Share Day</h4>
+                        <span>Est ea gubergren clita sea et lorem, et sanctus sit sit labore. Sit consetetur rebum vero et dolore clita erat,.</span>
+                    </div>
+                    <div>
+                        <h4>Updated Privacy Policy</h4>
+                        <span>Sea et amet kasd et ea ut gubergren justo. Dolor ipsum eos sed takimata sit gubergren, lorem sed sit et.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="trending">
+
             </div>
         </div>
     </div>
